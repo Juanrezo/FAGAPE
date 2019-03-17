@@ -1,0 +1,408 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/tabs.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/tabs.css" />
+</head>
+<body>
+    <div class="panel">
+        <div class="panel-body">
+            <div class="row center-block">
+                <h2>CONTRATISTA</h2>
+            </div>
+            <div>
+                <table style="background:rgba(0, 0, 0, 0.01); width:100%">
+                    <tr>
+                        <td>
+                            <div class="tabs">
+                                <ul class="tab-links" style="margin:0px">
+                                    <li id="t1" class="active"><a href="#tab1">DATOS GENERALES</a></li>
+                                    <li id="t2"><a href="#tab2">DATOS FISCALES</a></li>
+                                    <!--<li id="t3"><a href="#tab3">AVAL</a></li>-->
+                                    <li id="t4"><a href="#tab4">DOCUMENTOS</a></li>
+
+                                </ul>
+                                <div class="tab-content">
+                                    <div id="tab1" class="tab active">
+                                        <table style="width: 100%;">
+                                            <tr class="renglon">
+                                                <td>
+                                                    <div class="panel">
+                                                        <div class="panel-body">
+                                                            <div class="row">
+                                                                <div class="col-sm-4 col-md-3 col-lg-2">
+                                                                    <img src="images/Foto.png"  width="100%"/>
+                                                                </div>
+                                                                <div class="col-md-10 col-lg-10 row">
+                                                                    <div class="row">
+                                                                        <div class="col-md-5 col-lg-4">
+                                                                            <label>CORREO ACCESO</label>
+                                                                            <input type="text" class="form-control" />
+                                                                        </div>
+                                                                        <div class="col-md-3 col-lg-2">
+                                                                            <label>NOMBRE</label>
+                                                                            <input type="text" class="form-control" />
+                                                                        </div>
+                                                                        <div class="col-md-3 col-lg-2">
+                                                                            <label>PATERNO</label>
+                                                                            <input type="text" class="form-control" />
+                                                                        </div>
+                                                                        <div class="col-md-3 col-lg-2">
+                                                                            <label>MATERNO</label>
+                                                                            <input type="text" class="form-control" />
+                                                                        </div>
+                                                                        <div class="col-md-3 col-lg-2">
+                                                                            <label>FEC. NAC</label>
+                                                                            <input type="date" class="form-control" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="col-md-5 col-lg-4">
+                                                                            <label>CALLE</label>
+                                                                            <input type="text" class="form-control" />
+                                                                        </div>
+                                                                        <div class="col-md-2 col-lg-1">
+                                                                            <label>NUM. EXT.</label>
+                                                                            <input type="text" class="form-control" />
+                                                                        </div>
+                                                                        <div class="col-md-2 col-lg-1">
+                                                                            <label>NUM. INT.</label>
+                                                                            <input type="text" class="form-control" />
+                                                                        </div>
+                                                                        <div class="col-md-4 col-lg-3">
+                                                                            <label>COLONIA</label>
+                                                                            <input type="text" class="form-control" />
+                                                                        </div>                                                                       
+                                                                        <div class="col-md-4 col-lg-3">
+                                                                            <label>LOCALIDAD</label>
+                                                                            <input type="text" class="form-control" />
+                                                                        </div>                                                                        
+                                                                    </div>
+                                                                    <div class="row">                                                                                                                                                                                                                        
+                                                                        <div class="col-md-4 col-lg-3">
+                                                                            <label>MUNICIPIO</label>
+                                                                            <input type="text" class="form-control" />
+                                                                        </div>
+                                                                        <div class="col-md-4 col-lg-3">
+                                                                            <label>ESTADO</label>
+                                                                            <input type="text" class="form-control" />
+                                                                        </div>
+                                                                        <div class="col-md-3 col-lg-2">
+                                                                            <label>COD. POS.</label>
+                                                                            <input type="text" class="form-control" />
+                                                                        </div>
+                                                                        <div class="col-md-5 col-lg-4">
+                                                                            <label>CORREO ADICIONAL</label>
+                                                                            <input type="text" class="form-control" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+
+                                                                        <div class="col-md-4 col-lg-3">
+                                                                            <label>TEL. CASA</label>
+                                                                            <input type="text" class="form-control" />
+                                                                        </div>
+                                                                        <div class="col-md-4 col-lg-3">
+                                                                            <label>TEL. CELULAR</label>
+                                                                            <input type="text" class="form-control" />
+                                                                        </div>
+                                                                        <div class="col-md-4 col-lg-3">
+                                                                            <label>TEL. OFNA.</label>
+                                                                            <input type="text" class="form-control" />
+                                                                        </div>
+                                                                            <div class="col-md-4 col-lg-3">
+                                                                                <label>GIRO.</label>
+                                                                                <select class="form-control">
+                                                                                    <option>SELECCIONE...</option>
+                                                                                    <option>G1</option>
+                                                                                    <option>G2</option>
+                                                                                    <option>G3</option>                                                                 
+                                                                                </select>
+                                                                            </div>
+                                                                        
+                                                                        <div class="row">
+                                                                            <div class="col-md-12">
+                                                                                <button class="btn pull-right">GUARDAR</button>
+                                                                                <div class="clearfix"></div>
+                                                                            </div>
+                                                                            
+                                                                        </div>    
+                                                                        
+                                                                      <!--  <div class="col-lg-offset-1 col-md-3 col-lg-2">
+                                                                            <input type="button" class="btn" value="GUARDAR" />-->
+                                                                        </div> 
+                                                                    </div>
+                                                                </div>                                                               
+                                                            </div>
+                                                            
+                                                           
+                                                            <div class="row">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div id="tab2" class="tab">
+                                        <table style="width: 100%;">
+                                            <tr class="renglon">
+                                                <td>
+                                                    <div class="panel">
+                                                        <div class="panel-body">
+                                                            <div class="row">
+                                                                <div class="col-md-3 col-lg-2">
+                                                                    <label>RFC</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-5 col-lg-4">
+                                                                    <label>RAZÓN SOCIAL</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-3 col-lg-2">
+                                                                    <label>USO CFDI</label>
+                                                                    <select class="form-control">
+                                                                        <option>SELECCIONE...</option>
+                                                                        <option>GASTOS EN GENERAL (G03)</option>
+                                                                        <option>POR DEFINIR (P01)</option>                                                                       
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-md-3 col-lg-2">
+                                                                    <label>ESTADO</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-3 col-lg-2">
+                                                                    <label>MUNICIPIO</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-4 col-lg-3">
+                                                                    <label>CALLE</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-2 col-lg-1">
+                                                                    <label>NUM. EXT.</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-2 col-lg-1">
+                                                                    <label>NUM. INT.</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-4 col-lg-3">
+                                                                    <label>COLONIA</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-2 col-lg-1">
+                                                                    <label>COD. POS.</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-4 col-lg-3">
+                                                                    <label>CIUDAD</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>                                                                
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-lg-offset-10 col-md-2 col-lg-2">
+                                                                    <input type="button" class="btn" value="GUARDAR" />
+                                                                </div>
+                                                            </div>
+                                                        </DIV>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                   <!-- <div id="tab3" class="tab">
+                                        <table style="width: 100%;">
+                                            <tr class="renglon">
+                                                <td>
+                                                    <div class="panel">
+                                                        <div class="panel-body">
+                                                            <div class="row center-block">
+                                                                <h2>AVAL 1</h2>
+                                                            </div>
+                                                            <div class="row">                                                                
+                                                                <div class="col-md-3 col-lg-2">
+                                                                    <label>NOMBRE</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-3 col-lg-2">
+                                                                    <label>PATERNO</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-3 col-lg-2">
+                                                                    <label>MATERNO</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-3 col-lg-2">
+                                                                    <label>FEC. NAC</label>
+                                                                    <input type="date" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-5 col-lg-4">
+                                                                    <label>CORREO PRINCIPAL</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-5 col-lg-4">
+                                                                    <label>CALLE</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-2 col-lg-1">
+                                                                    <label>NUM. EXT.</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-2 col-lg-1">
+                                                                    <label>NUM. INT.</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-4 col-lg-3">
+                                                                    <label>COLONIA</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-4 col-lg-3">
+                                                                    <label>LOCALIDAD</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-4 col-lg-3">
+                                                                    <label>MUNICIPIO</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-4 col-lg-3">
+                                                                    <label>ESTADO</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-3 col-lg-2">
+                                                                    <label>COD. POS.</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-5 col-lg-4">
+                                                                    <label>CORREO ADICIONAL</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+
+                                                                <div class="col-md-4 col-lg-3">
+                                                                    <label>TEL. CASA</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-4 col-lg-3">
+                                                                    <label>TEL. CELULAR</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-4 col-lg-3">
+                                                                    <label>TEL. ODFNA.</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-3 col-lg-2">
+                                                                    <label>INE</label>
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                                <div class="col-md-2 col-lg-1">
+                                                                    <input type="button" class="btn" value="GUARDAR" />
+                                                                </div>
+                                                            </div>
+                                                            <hr />
+                                                            <div class="row">
+                                                                <div class="col-lg-offset-10 col-md-2 col-lg-2">
+                                                                    <input type="button" class="btn" value="NUEVO AVAL" />
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>-->
+                                    <div id="tab4" class="tab">
+                                        <table style="width: 100%;">
+                                            <tr class="renglon">
+                                                <td>
+                                                    <div class="panel">
+                                                        <div class="panel-body">
+                                                            <div class="row">
+                                                                <div class="col-md-6 col-lg-6">
+                                                                    <div class="row">
+                                                                        <div class="col-md-4 col-lg-4">
+                                                                            <label>TIPO DOCUMENTO</label>
+                                                                            <select class="form-control">
+                                                                                <option>SELECCIONE...</option>
+                                                                                <option>INE INQUILINO</option>
+                                                                                <option>INE AVAL 1</option>
+                                                                                <option>INE AVAL 2</option>
+                                                                                <option>COMPROBANTE DOMICILIO</option>
+                                                                                <option>RFC</option>
+                                                                                <option>ACTA NACIMIENTO</option>
+                                                                            </select>
+                                                                        </div>
+                                                                        <div class="col-md-4 col-lg-4">
+                                                                            <label># DOCUMENTO</label>
+                                                                            <input type="text" class="form-control" />
+                                                                        </div>
+                                                                        <div class="col-md-4 col-lg-4">
+                                                                            <label>DOCUMENTO</label>
+                                                                            <input type="file" class="form-control" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row well">
+                                                                        <div class="col-md-12 col-lg-12">
+                                                                            <table class="table">
+                                                                                <thead>
+                                                                                    <tr>
+                                                                                        <th class="col-lg-5">DOCUMENTOS</th>
+                                                                                        <th class="col-lg-2"># DOCUMENTO</th>
+                                                                                        <th class="col-lg-3">VISTA PREVIA</th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tr style="background-color: lightgray;">
+                                                                                    <td>INE INQUILINO</td>
+                                                                                    <td>VECBGR770729HSR1010 </td>
+                                                                                    <td><img src="images/der_up.png" width="25" /></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>COMPROBANTE DOMICILIO </td>
+                                                                                    <td>6460598523</td>
+                                                                                    <td><img src="images/der_up.png" width="25" /></td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div> 
+                                                                    
+                                                                </div>
+                                                                <div class="col-md-1 col-lg-1">
+                                                                    <input type="button" class="btn" value=" + " />
+                                                                </div>
+                                                                <div class="col-md-5 col-lg-5">
+                                                                    <div class="row well">
+                                                                        <div class="col-lg-offset-1 col-md-10 col-lg-10">
+                                                                            <img src="images/credencial-actual.jpg" width="100%" />
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>                                                           
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </DIV>
+    </div>
+</body>
+</html>
