@@ -1,0 +1,37 @@
+#articulo{
+    background-color:#eef3f7 ;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+a{
+    border-style: solid;
+    color:gray;
+    font-size: 16px;
+    font-weight: bold;
+    
+
+}
+#col1{background-color: aqua;
+    border-color: red;
+    border-style: solid;
+}
+/*#col2{
+    background-color: blueviolet;
+}
+#col3{
+    background-color: brown;
+
+}
+#col4{
+    background-color: chartreuse;
+}
+#col5{
+    background-color: cornflowerblue;
+}
+#col6{
+    background-color: darkblue;
+}
+#r2{
+    background-color: darkgreen;
+}*/
