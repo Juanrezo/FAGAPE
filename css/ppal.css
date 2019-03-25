@@ -1,0 +1,42 @@
+
+body{
+	background-color: #F5F4F6;
+}
+header{
+	background-color: #6A74FB;
+	color: white;
+	height: 50px;
+	padding: 10px;
+
+
+}
+
+section{
+	background-color: #f3f9fb;
+}
+/*
+.row > ul{
+	background-color: blue;
+	margin: 10px 0;
+}
+#contenedor{
+	background-color: white;
+}*/
+#contratista{
+	/*background-color: #3EDCF7;*/
+	background-color: #226597;
+	margin: 5px -15px;
+	color:white;
+	padding: 7px 0px;
+}/*
+#btnnvo{
+	background-color: #a23131;
+}*/
+.row{
+	
+	/*margin:10px 0;*/
+	/*height: 50px;
+	/*padding: 10px;*/
+	/*border:solid 1px;
+	border-color: red;*/
+}

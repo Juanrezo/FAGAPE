@@ -1,10 +1,22 @@
+footer{
+   
+    margin-top: 1%;
+}
+#botones{
+    margin-bottom: 20%;
+}
+
+#logo{
+    margin-top: 10%;
+}
+
+#seccion{
+    background-color: #e7eaf6;
+   border: 1px solid #ccc;
+ border-radius: 15px;  
+}
 #imagen{
-    position: absolute;
     width: 100px;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     margin: auto;
 }
 #articulo{
